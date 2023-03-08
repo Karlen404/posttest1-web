@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar</title>
+    <link rel="icon" type="image/png" href="asset/logo/Group 13.svg">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logowh">
+        <img src="asset/logo/Group 8.svg" class="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="genre.html">Genres</a>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Tv Series</a>
+          <div class="dropdown-content">
+            <a href="#">Netflix</a>
+            <a href="#">HBO</a>
+            <a href="#">Disney+ Hotstar</a>
+          </div>
+        </li>
+        <a href="tentang.html">Tentang</a>
+        <form class="search-form">
+          <input class="search-input" type="text" placeholder="Cari" />
+          <button class="search-button" type="submit">
+            <img src="asset/icon/Search (1).svg" alt="searching" />
+          </button>
+        </form>
+        <button class="btn-daftar" onclick="window.location.href='daftar.html'">
+          Daftar
+        </button>
+      </nav>
+    </header>
+    <!-- NAVBAR END -->
+
+    <!-- Daftar -->
+
+    <div class="daftar-form">
+      <form>
+        <div class="nama-pw-email">
+          <h2>Daftar</h2>
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" /><br />
+        </div>
+        <label for="select-option">Tahun lahir:</label>
+        <select id="select-option" name="option">
+          <option value="option1">2000</option>
+          <option value="option2">2001</option>
+          <option value="option3">2002</option>
+          <option value="option1">2003</option>
+          <option value="option2">2003</option>
+          <option value="option3">2004</option>
+          <option value="option1">2005</option>
+          <option value="option2">2006</option>
+          <option value="option3">2007</option>
+          <option value="option1">2008</option>
+          <option value="option2">2009</option>
+          <option value="option3">2010</option>
+          <option value="option1">2011</option>
+          <option value="option2">2012</option>
+          <option value="option3">2013</option>
+          <option value="option1">2014</option>
+          <option value="option2">2015</option>
+          <option value="option3">2016</option>
+          <option value="option2">2017</option>
+          <option value="option3">2018</option>
+          <option value="option1">2019</option>
+          <option value="option2">2020</option>
+          <option value="option3">2021</option>
+          <option value="option2">2022</option>
+          <option value="option3">2023</option></select
+        ><br />
+        <br />
+
+        <label for="file">Pilih foto:</label>
+        <input type="file" id="file" name="foto" />
+
+        <h4>Apakah anda yakin dengan data diri anda?</h4>
+        <br />
+        <div class="radio">
+          <label for="yes">Yes</label>
+          <input type="radio" id="yes" name="radio" value="yes" />
+          <label for="no">No</label>
+          <input type="radio" id="no" name="radio" value="no" /><br />
+        </div>
+        <br />
+
+        <label for="text-area">Saran untuk WatchHub:</label>
+        <textarea id="text-area" name="pesan"></textarea><br />
+
+        <h4>Genre film apa yang anda suka?</h4>
+        <div class="checkbox">
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="true" />
+          <label for="vehicle1"> Action</label><br />
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="true" />
+          <label for="vehicle2"> Comedy</label><br />
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="true" />
+          <label for="vehicle3"> Horror</label><br />
+          <input type="checkbox" id="vehicle4" name="vehicle4" value="true" />
+          <label for="vehicle4"> Romance</label>
+        </div>
+        <br />
+        <div class="btn-submit">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+
+    <!-- Daftar End -->
+    <!-- FOOTER -->
+    <footer>
+      <div class="top-footer">
+        <h4>Temukan kami di sosial media:</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="bottom-footer">
+        <p>&copy; 2023 - WATCHUB</p>
+      </div>
+    </footer>
+
+    <!-- FOOTER END -->
+  </body>
+</html>
